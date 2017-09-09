@@ -1,0 +1,4 @@
+ecj *.java *.class
+dx --dex --output=*.jar *.class
+dalvikvm -cp *.jar *
+
