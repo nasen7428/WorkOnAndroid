@@ -1,0 +1,11 @@
+bcrypt can't install.
+msf can't used.
+
+
+pythem install fail.
+
+change android /
+	su
+	mount -o rw,remount /
+	mount -o ro,remount /
+	

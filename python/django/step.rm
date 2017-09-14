@@ -1,0 +1,9 @@
+test django success:
+	python -m django --version
+in work space
+django-admin startproject mysite
+tree and go to mysite
+python manger.py runserver
+go to view the website 127.0.0.1:8000
+
+
