@@ -1,0 +1,7 @@
+aapk build R.java
+ecj build .class
+dx build .dex
+aapt which AndroidManifest.xml
+aapt or zip build apk
+apksigner signer apk
+termux-share install apk
