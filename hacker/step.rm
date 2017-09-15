@@ -1,8 +1,36 @@
-bcrypt can't install.
-msf can't used.
+msf install success.
+	install curl proot 
+	
+	termux-chroot
+
+	#msf & msfdb
+	curl -L https://Auxilus.github.io/metasploit.sh > metasploit.sh
+	chmod +x metasploit.sh && ./metasploit.sh
+		#should be under ~/
+	
+	#msfdb init
+	mkdir ~/.msfdb
+	initdb ~/.msfdb
+
+	#msfdb start stop
+	pg_ctl -D ~/.msfdb -l ~/.msfdb/msfdb.log start
+	pg_ctl -D ~/.msfdb -l ~/.msfdb/msfdb.log stop
+
+	#init db table
+	createuser msf
+	createdb msfdb
+
+	#msf connect db
+	db_connect msf@msfdb
+
+	db_status
+
+	db_rebuild_cache
+
+	#search 
+	search (model)
 
 
-pythem install fail.
 
 change android /
 	su
