@@ -1,0 +1,2 @@
+#download webstat 
+wget -r -p -np -k www.aa.bb
