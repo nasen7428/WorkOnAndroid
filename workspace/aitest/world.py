@@ -4,6 +4,8 @@
 #It better can be use args to define some var.
 
 import sys
+import os
+
 
 def help():
     print """
@@ -15,18 +17,39 @@ def help():
     
     """
 
-def initdb():
-    """
-
-    test db is exit.
-    it make sure db exit and can create dbfile.
-    if db not exit,it will install some can usefull db.
-
-
-    """
-
 
 def main():
 
 
+
 main()
+
+
+
+
+def show_db_data():
+    print """
+    {
+        [aid,sid,a0s,a1s....],
+        [aid,sid,a0s,a1s....],
+        ...
+    }
+    """
+
+def show_how_to_writ_db_file():
+    #show how to write a db file
+    print """
+    attrid,stateid,attr0state,attr1state,...
+    attrid,stateid,attr0state,attr1state,..
+    ....
+    
+    """
+
+def load(data,filepath):
+    #load data from file.
+
+
+def save(data,filepath):
+    #save data to file.
+
+
