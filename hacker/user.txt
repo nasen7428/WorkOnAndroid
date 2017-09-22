@@ -1,0 +1,15 @@
+msf
+root
+toor
+user
+admin
+msfadmin
+metasploit
+administrator
+metasploitable
+metasploitable2
+asm
+cat
+super
+host
+hosts
