@@ -10,8 +10,16 @@ import os
 def help():
     print """
     python2 world.py [command] [-type] [args]
-    command :
-        
+    [command] :
+       rule-clear
+       rule-add :
+            [type]:
+                -f file
+                -a args aid,sid,fas0,fas1,fas2...
+       rule-search :
+            [type]:
+                -f file
+                -a args fas0,fas1,fas2..ii
 
     
     """
